@@ -1,0 +1,205 @@
+.banner2 {
+  height: 60vh;
+  width: 100%;
+  background-image: url("/images/pic4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.banner-overlay {
+  height: 60vh;
+  width: 100%;
+  background-color: #333;
+  opacity: 0.4;
+}
+
+.banner2 a {
+  color: #ffff;
+
+  font-family: Georgia, serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+.banner2 .first-text {
+  color: #ffff;
+  font-size: 40px;
+  font-family: Georgia, serif;
+}
+.banner2 h2 {
+  font-family: Georgia, serif;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.AboutPage-body h1 {
+  margin-top: 100px;
+}
+.AboutPage-body h5 {
+  font-size: 15px;
+  color: #666666;
+}
+.AboutPage-body hr {
+  background-color: #fe4c50;
+  width: 10%;
+  height: 2px;
+}
+.AboutPage-body img {
+  height: 69vh;
+  -webkit-filter: brightness(100%);
+  margin-top: 30px;
+}
+.image:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.AboutPage-body p {
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  color: #666666;
+  /* color: red; */
+}
+.AboutPage-body2 img {
+  height: 65vh;
+  -webkit-filter: brightness(100%);
+}
+.AboutPage-body2 h1 {
+  margin-top: 100px;
+}
+.AboutPage-body2 h5 {
+  font-size: 15px;
+  color: #666666;
+}
+.AboutPage-body2 hr {
+  background-color: #fe4c50;
+  width: 10%;
+  height: 2px;
+}
+.AboutPage-body2 p {
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  color: #666666;
+}
+@media screen and (max-width: 823px) {
+  .AboutPage-body p {
+    letter-spacing: normal;
+    font-size: 13px;
+  }
+  .AboutPage-body2 p {
+    letter-spacing: normal;
+    font-size: 13px;
+  }
+}
+
+/* FAQ STYLED STARTS */
+
+.faq_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 60px;
+}
+.faq-content-header h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.faq-content-header hr {
+  height: 4px;
+  background-color: #fe4c50;
+  width: 30%;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+}
+.faq_content_wrap {
+  margin-top: 20px;
+}
+
+.faq_content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.faq_content p {
+  font-size: 15px;
+}
+.accordion_wrap {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 8px 20px 16px 20px;
+  margin-bottom: 40px;
+}
+
+.accordion_wrap h3 {
+  font-weight: 300;
+  font-size: 21px;
+  padding-top: 13px;
+}
+
+.accordion_wrap .toGGle i {
+  color: #fe4c50;
+  padding: 13px 0 0 5px;
+  font-size: 1.6rem;
+}
+
+.accordion_wrap .letter {
+  font-weight: bold;
+  color: #fe4c50;
+  font-size: 35px;
+}
+
+.accordion_wrap .content_header {
+  cursor: pointer;
+  padding: 20px 0 10px 0;
+}
+
+.accordion_wrap .content {
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
+
+.accordion_wrap .info_wrap {
+  border-top: 1px solid #ccc;
+  border-width: 100%;
+}
+
+.accordion_wrap .content p {
+  padding-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .faq_container {
+    padding: 10px 20px;
+  }
+
+  .faq_content h1 {
+    font-size: 30px;
+  }
+
+  .accordion_wrap {
+    margin-bottom: 20px;
+  }
+
+  .accordion_wrap h2 {
+    padding-left: 10px;
+  }
+
+  .accordion_wrap h3 {
+    font-size: 17px;
+  }
+}
+
+/* FAQ STYLES BEGINS */

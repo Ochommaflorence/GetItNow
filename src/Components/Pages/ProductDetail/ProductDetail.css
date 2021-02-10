@@ -1,0 +1,49 @@
+.Nexted-router-image img {
+    height: 90vh;
+    width: 95%;
+    background-color: #eee;
+    margin-top: 40px;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    position: relative;
+    /* padding: 13px; */
+}
+ .Nexted-router-image img:hover {
+    border-radius: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    /* border: 4px dotted #fe4c50; */
+ }   
+ .Nexted-router-text{
+    margin-top: 150px;
+}
+.Nexted-router-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+ .Nexted-router-text p{
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 700;
+       text-align:center;
+       word-spacing: 1px;
+       font-family: 'Courier New', Courier, monospace;
+       margin-top:30px;
+    }  
+  .Nexted-router-text button {
+    color: #ffffff;
+    background-color:#fe4c50;
+    width: 160px;
+    height: 46px;
+    border: none;
+    font-weight: 500;
+    outline: none;
+    
+  }  
+  .Nexted-router-text button:hover {
+      background-color: black;
+      color: #ffffff;
+  }

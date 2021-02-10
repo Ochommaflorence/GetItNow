@@ -1,0 +1,115 @@
+.Home-Background-text h1 {
+  color: black !important;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 200px !important;
+}
+.Home-Background-text hr {
+  height: 4px;
+  background-color: #fe4c50;
+  width: 10%;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+}
+.Home-product-header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.Home-product-header hr {
+  height: 4px;
+  background-color: #fe4c50;
+  width: 7%;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+}
+.Home-Newsletter_Content {
+  background-color: #f5f5f5;
+  padding: 20px;
+  width: 100% !important;
+}
+.Home-Newsletter-wrapper {
+  margin-top: 30px;
+}
+.Home-Newsletter_Content h2 {
+  font-size: 30px;
+  margin-right: 250px !important;
+}
+.Home-Newsletter_Content h3 {
+  font-size: 15px;
+  margin-left: 50px !important;
+  columns: #51545f;
+}
+.Home-Newsletter_Content input {
+  width: 300px;
+  height: 46px;
+  background-color: #ffffff;
+  border: none;
+  padding-left: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.Home-Newsletter_Content button {
+  margin-right: 20px;
+  background-color: #fe4c50;
+  width: 160px;
+  height: 46px;
+  border: none;
+  font-weight: 500;
+  outline: none;
+}
+@media screen and (max-width: 823px) {
+  .Home-Newsletter_Content h3 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .Home-Newsletter_Content h2 {
+    font-size: 30px;
+    margin-left: 100px;
+  }
+  .Home-Newsletter_Content input {
+    margin-bottom: 20px;
+  }
+  #slider-carousel {
+    height: 60vh !important;
+  }
+  .Home-blog-link a {
+    font-size: 17px !important;
+    font-weight: bold;
+  }
+}
+.Home-content h2 {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 40px;
+  text-align: center;
+}
+.Home-content hr {
+  background-color: #fe4c50;
+  width: 7%;
+  height: 4px;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+}
+.Home-content img {
+  height: 300px;
+  width: 400px;
+  transition: 0.3s ease;
+}
+#My_Image1:hover {
+  content: url("/images/pic5.jpg");
+}
+#My_Image2:hover {
+  content: url("/images/pic8.jpg");
+}
+#My_Image3:hover {
+  content: url("/images/pic9.jpg");
+}
+.Home-blog-link a {
+  color: #fe4c50;
+  font-size: 30px;
+  text-decoration: none;
+}

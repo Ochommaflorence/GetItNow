@@ -1,0 +1,72 @@
+.banner1 {
+  height: 60vh;
+  width: 100%;
+  background-image: url("/images/slider/slider-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 30px;
+}
+.banner-overlay {
+  height: 60vh;
+  width: 100%;
+  background-color: #333;
+  opacity: 0.4;
+}
+
+.banner1 a {
+  color: #ffff;
+
+  font-family: Georgia, serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+.banner1 .first-text {
+  color: #ffff;
+  font-size: 40px;
+  font-family: Georgia, serif;
+}
+.banner1 h2 {
+  font-family: Georgia, serif;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contactPage-Form {
+  background-color: #f5f5f5;
+  width: 100%;
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.contact-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-form-content input[type="text"],
+textarea {
+  width: 95%;
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+input[type="submit"] {
+  background-color: #fe4c50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
