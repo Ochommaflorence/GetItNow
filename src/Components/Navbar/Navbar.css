@@ -1,6 +1,3 @@
-/* nav li {
-    margin-left: 20px;
-} */
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 78px;
@@ -9,7 +6,7 @@
   align-items: center;
   font-size: 1.2rem;
   position: fixed;
-  /* position: relative; */
+
   top: 0;
   z-index: 999;
   width: 100%;
@@ -73,7 +70,6 @@
 
 .nav-links:hover,
 .nav-links.is-active {
-  border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
   text-decoration: none;
   color: #fe4c50;
@@ -114,6 +110,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    top: 78px;
   }
 
   .nav-links {
@@ -218,5 +215,11 @@
   .navbar-logo {
     font-size: 18px;
     padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar-logo {
+    margin-left: -20px;
   }
 }

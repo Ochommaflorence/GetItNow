@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -26,13 +26,14 @@ const Footer = () => {
                 <h3 className="mt-3">CONTACT INFORMATION</h3>
                 <p>
                   <i className="fa fa-phone"></i>{" "}
-                  <a href="tel: +234 164 402 87, +234 903 896 8345">
-                    +234 164 402 87 , +234 903 896 8345
+                  <a href="tel: +234 903 896 8345" className="pr-2">
+                    +234 903 896 8345
                   </a>
+                  <a href="tel: +234 164 402 87">+234 164 402 87</a>
                 </p>
                 <p>
-                  <i className="fa fa-map"></i> House 1, No 7 Dominion Estate,{" "}
-                  <span> Olukonla Bus stop, Ajah, Lagos</span>
+                  <i className="fa fa-map"></i> Jesan House,{" "}
+                  <span> lekki Epe Expressway, Oko Addo, Ajah Lagos</span>
                 </p>
                 <p>
                   <i className="fa fa-envelope"></i>{" "}
@@ -48,7 +49,10 @@ const Footer = () => {
                 <h3 className="mt-3">CUSTOMER CARE</h3>
                 <ul className="footer-list-text">
                   <NavLink to="/contact">CONTACT</NavLink>
-                  <li> <a href="about#faq">FAQS</a></li>
+                  <li>
+                    {" "}
+                    <a href="about#faq">FAQS</a>
+                  </li>
                 </ul>
                 <p className="social-links mt-3">
                   <a href="#!">

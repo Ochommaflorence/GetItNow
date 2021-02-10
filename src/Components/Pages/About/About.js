@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./About.css";
 
 function About() {
- 
   const questions = [
     {
       id: 1,
@@ -107,7 +106,10 @@ function About() {
       </article>
 
       {/* FAQ starts */}
-      <div className="banner d-flex justify-content-center text-center" id="faq">
+      <div
+        className="banner d-flex justify-content-center text-center"
+        id="faq"
+      >
         <div className="text-center faq-content-header">
           <h2 className="mt-5">OUR FAQS</h2>
           <hr />

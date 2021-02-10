@@ -45,3 +45,12 @@
   background: #fe4c50;
   font-weight: bold;
 }
+
+@media screen and (max-width: 500px) {
+  .footer_content p {
+    font-size: 13px;
+  }
+  .footer_content li {
+    font-size: 15px;
+  }
+}

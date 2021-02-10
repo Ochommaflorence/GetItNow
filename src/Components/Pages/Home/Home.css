@@ -113,3 +113,15 @@
   font-size: 30px;
   text-decoration: none;
 }
+
+@media screen and (max-width: 500px) {
+  .Home-product-header h1 {
+    font-size: 27px;
+  }
+  .Home-content h2 {
+    font-size: 30px;
+  }
+  .Home-Background-text h1 {
+    font-size: 30px;
+  }
+}

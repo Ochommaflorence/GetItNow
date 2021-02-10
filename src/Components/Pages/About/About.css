@@ -202,4 +202,29 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .AboutPage-body h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .AboutPage-body2 h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .faq-content-header h2 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .faq_content h1 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .faq_content p {
+    font-size: 12px;
+  }
+  .accordion_wrap h3 {
+    font-size: 13px;
+  }
+}
+
 /* FAQ STYLES BEGINS */
