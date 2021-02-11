@@ -82,17 +82,14 @@ const Navbar = ({ getCartTotal }) => {
           </ul>
 
           {/* {button && <Button buttonStyle='btn--outline'> */}
-          <button className="navbar-button mb-1">
-            <NavLink to="cart" id="cart-icon">
+         
+            <NavLink to="cart" className="notification text-white">
               <div className="button-wrap d-flex">
-                <span>
-                  {" "}
-                  <i className="fas fa-shopping-cart ml-3" id="cart-icon"></i>
-                </span>
-                <span className="ml-2">{getCartTotal()} </span>
-              </div>
+               <i className="fas fa-shopping-cart ml-3" id="cart-icon"></i>
+               <span className="badge">{getCartTotal()}</span>
+               </div>
             </NavLink>
-          </button>
+          
           {/* </Button>} */}
         </div>
       </nav>

@@ -74,11 +74,11 @@ export default function Cart({ cart, setCart }) {
                     </td>
 
                     <td>
-                      <p style={{ fontSize: "20px" }}>{title}</p>
+                      <p className="cart-table-title">{title}</p>
                     </td>
 
                     <td>
-                      <p>{price}</p>
+                      <p>&#x24;{price}</p>
                     </td>
 
                     <td>

@@ -1,3 +1,12 @@
+.loader-title h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.loader-title .underline {
+  height: 4px;
+  background-color: #fe4c50;
+  width: 4%;
+}
 .productList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

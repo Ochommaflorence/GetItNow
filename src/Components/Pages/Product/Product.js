@@ -24,7 +24,8 @@ function Product({
   if (isLoading) {
     return (
       <>
-        <div className="title_h text-center mt-3 mb-3">
+        <div style={{ marginTop: "150px" }}></div>
+        <div className="loader-title text-center mt-5 mb-3">
           <h3>Our Products</h3>
           <div className="d-flex justify-content-center">
             <div className="underline"> </div>
@@ -104,13 +105,7 @@ function Product({
   //main show case
   return (
     <>
-      <div className="title_h text-center mt-5 mb-3">
-        <h3>Our Products</h3>
-        <div className="d-flex justify-content-center">
-          <div className="underline"> </div>
-        </div>
-      </div>
-
+      <div style={{ marginTop: "130px" }}></div>
       <div className="d-flex justify-content-around align-items-baseline">
         <div className="text-center mt-5 product-search-button">
           <form>
