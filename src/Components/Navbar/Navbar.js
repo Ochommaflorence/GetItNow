@@ -1,26 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = ({ getCartTotal }) => {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener("resize", showButton);
 
   return (
     <div>
@@ -82,14 +67,14 @@ const Navbar = ({ getCartTotal }) => {
           </ul>
 
           {/* {button && <Button buttonStyle='btn--outline'> */}
-         
-            <NavLink to="cart" className="notification text-white">
-              <div className="button-wrap d-flex">
-               <i className="fas fa-shopping-cart ml-3" id="cart-icon"></i>
-               <span className="badge">{getCartTotal()}</span>
-               </div>
-            </NavLink>
-          
+
+          <NavLink to="cart" className="notification text-white">
+            <div className="button-wrap d-flex">
+              <i className="fas fa-shopping-cart ml-3" id="cart-icon"></i>
+              <span className="badge">{getCartTotal()}</span>
+            </div>
+          </NavLink>
+
           {/* </Button>} */}
         </div>
       </nav>
