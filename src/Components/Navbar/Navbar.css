@@ -218,8 +218,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .navbar-logo {
-    margin-left: -20px;
+    margin-left: -18px;
+  
   }
 }
